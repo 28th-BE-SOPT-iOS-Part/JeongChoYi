@@ -15,6 +15,12 @@
 		5601F8022620639D00E5EA6A /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5601F8012620639D00E5EA6A /* JoinViewController.swift */; };
 		5601F805262063A500E5EA6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5601F804262063A500E5EA6A /* LoginViewController.swift */; };
 		5601F808262063AC00E5EA6A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5601F807262063AC00E5EA6A /* HomeViewController.swift */; };
+		562F5535264412CB000F8CAB /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F5533264412CB000F8CAB /* FriendsTableViewCell.swift */; };
+		562F5536264412CB000F8CAB /* FriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 562F5534264412CB000F8CAB /* FriendsTableViewCell.xib */; };
+		562F553926441B35000F8CAB /* MeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F553726441B35000F8CAB /* MeTableViewCell.swift */; };
+		562F553A26441B35000F8CAB /* MeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 562F553826441B35000F8CAB /* MeTableViewCell.xib */; };
+		562F553D26441D59000F8CAB /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F553C26441D59000F8CAB /* Friends.swift */; };
+		562F553F26441DE5000F8CAB /* Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F553E26441DE5000F8CAB /* Xib.swift */; };
 		568EF47026327906008EC648 /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568EF46F26327906008EC648 /* Tabbar.storyboard */; };
 		568EF47326327958008EC648 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568EF47226327958008EC648 /* Const.swift */; };
 		568EF476263279B8008EC648 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568EF475263279B8008EC648 /* Storyboard.swift */; };
@@ -41,6 +47,12 @@
 		5601F8012620639D00E5EA6A /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
 		5601F804262063A500E5EA6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5601F807262063AC00E5EA6A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		562F5533264412CB000F8CAB /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		562F5534264412CB000F8CAB /* FriendsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsTableViewCell.xib; sourceTree = "<group>"; };
+		562F553726441B35000F8CAB /* MeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTableViewCell.swift; sourceTree = "<group>"; };
+		562F553826441B35000F8CAB /* MeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeTableViewCell.xib; sourceTree = "<group>"; };
+		562F553C26441D59000F8CAB /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		562F553E26441DE5000F8CAB /* Xib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xib.swift; sourceTree = "<group>"; };
 		568EF46F26327906008EC648 /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
 		568EF47226327958008EC648 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		568EF475263279B8008EC648 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
@@ -92,6 +104,25 @@
 			path = "assignment-kakao";
 			sourceTree = "<group>";
 		};
+		562F55312644126B000F8CAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				562F553C26441D59000F8CAB /* Friends.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		562F5532264412BA000F8CAB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				562F5533264412CB000F8CAB /* FriendsTableViewCell.swift */,
+				562F5534264412CB000F8CAB /* FriendsTableViewCell.xib */,
+				562F553726441B35000F8CAB /* MeTableViewCell.swift */,
+				562F553826441B35000F8CAB /* MeTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		568EF46526327539008EC648 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +140,7 @@
 				568EF47226327958008EC648 /* Const.swift */,
 				568EF475263279B8008EC648 /* Storyboard.swift */,
 				568EF48126327DE2008EC648 /* ViewController.swift */,
+				562F553E26441DE5000F8CAB /* Xib.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -133,6 +165,8 @@
 			children = (
 				5601F7E226205F4F00E5EA6A /* AppDelegate.swift */,
 				5601F7E426205F4F00E5EA6A /* SceneDelegate.swift */,
+				562F5532264412BA000F8CAB /* Cells */,
+				562F55312644126B000F8CAB /* Models */,
 				568EF48626327FFF008EC648 /* Extensions */,
 				568EF46926327562008EC648 /* ViewControllers */,
 			);
@@ -218,6 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				568EF4902632937C008EC648 /* Chat.storyboard in Resources */,
+				562F5536264412CB000F8CAB /* FriendsTableViewCell.xib in Resources */,
+				562F553A26441B35000F8CAB /* MeTableViewCell.xib in Resources */,
 				568EF4992632939D008EC648 /* More.storyboard in Resources */,
 				568EF47026327906008EC648 /* Tabbar.storyboard in Resources */,
 				568EF49626329395008EC648 /* Shopping.storyboard in Resources */,
@@ -239,14 +275,18 @@
 				5601F7E326205F4F00E5EA6A /* AppDelegate.swift in Sources */,
 				5601F8022620639D00E5EA6A /* JoinViewController.swift in Sources */,
 				568EF48926328153008EC648 /* UINavigationController+Extension.swift in Sources */,
+				562F553926441B35000F8CAB /* MeTableViewCell.swift in Sources */,
 				5601F805262063A500E5EA6A /* LoginViewController.swift in Sources */,
+				562F5535264412CB000F8CAB /* FriendsTableViewCell.swift in Sources */,
 				568EF48226327DE2008EC648 /* ViewController.swift in Sources */,
+				562F553F26441DE5000F8CAB /* Xib.swift in Sources */,
 				568EF47926327A0D008EC648 /* TabBarViewController.swift in Sources */,
 				568EF48D263291C2008EC648 /* MyProfileViewController.swift in Sources */,
 				568EF476263279B8008EC648 /* Storyboard.swift in Sources */,
 				568EF47F26327A78008EC648 /* FriendsViewController.swift in Sources */,
 				5601F7E526205F4F00E5EA6A /* SceneDelegate.swift in Sources */,
 				5601F808262063AC00E5EA6A /* HomeViewController.swift in Sources */,
+				562F553D26441D59000F8CAB /* Friends.swift in Sources */,
 				568EF47326327958008EC648 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

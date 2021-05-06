@@ -8,11 +8,18 @@
 import UIKit
 
 class MyProfileViewController: UIViewController {
+    
+    @IBOutlet weak var profileImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    var image: UIImage?
+    var name: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        initView(image: image ?? UIImage(named: "profileUserImg")! , name: name ?? "김솝트")
     }
     
     // MARK: - @IBAction Functions
@@ -46,5 +53,10 @@ class MyProfileViewController: UIViewController {
             case .failed, .possible:
                 break
             }
+    }
+    
+    func initView(image: UIImage, name: String) {
+        profileImageView?.image = image
+        nameLabel?.text = name
     }
 }
