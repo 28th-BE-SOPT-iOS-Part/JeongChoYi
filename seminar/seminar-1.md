@@ -80,7 +80,7 @@
 
 ## ViewController의 생명주기
 
-<img src="https://user-images.githubusercontent.com/28949235/120156210-ba9af880-c22c-11eb-9f2b-d767966a017d.png" alt="image" style="width:400px" /><img src="https://user-images.githubusercontent.com/28949235/120156384-e61de300-c22c-11eb-80d6-7c3e6cfcb7f5.png" alt="image" style="width:300px;" />
+<img src="https://user-images.githubusercontent.com/28949235/120156210-ba9af880-c22c-11eb-9f2b-d767966a017d.png" alt="image" width=400px /><img src="https://user-images.githubusercontent.com/28949235/120156384-e61de300-c22c-11eb-80d6-7c3e6cfcb7f5.png" alt="image" width=300px />
 
 * **viewDidLoad**
   * 뷰 컨트롤러가 메모리에 로드된 후 호출
